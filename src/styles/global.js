@@ -33,4 +33,8 @@ export default createGlobalStyle`
     input, textarea {
         outline: none;
     }
+
+    img{
+        object-fit: cover;
+    }
 `
