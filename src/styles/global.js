@@ -22,7 +22,7 @@ export default createGlobalStyle`
     }
 
     button:hover, a:hover {
-        filter: (0.9)
+        filter: opacity(0.7);
     }
 
     body, button, input, textarea{

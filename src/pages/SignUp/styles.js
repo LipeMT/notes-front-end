@@ -11,7 +11,7 @@ export const Container = styled.div`
 `
 
 export const Form = styled.form`
-    padding: 40px 60px;
+    padding: 40px 150px;
 
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ export const Form = styled.form`
     > h1{
         font-size: 48px;
 
-        color: ${({theme}) => theme.COLORS.ORANGE};
+        color: ${({ theme }) => theme.COLORS.ORANGE};
     }
 
     > h2{
@@ -31,12 +31,12 @@ export const Form = styled.form`
 
     > p{
         font-size: 14px;
-        color: ${({theme}) => theme.COLORS.GRAY_100};
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
     > a{
         margin-top: 124px;
-        color: ${({theme}) => theme.COLORS.ORANGE};
+        color: ${({ theme }) => theme.COLORS.ORANGE};
     }
 `
 
