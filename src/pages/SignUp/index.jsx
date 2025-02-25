@@ -32,16 +32,10 @@ export function SignUp() {
             })
     }
 
-    const handleKeyDown = (event) => {
-        if (event.key === "Enter") {
-            handleSignUp()
-        }
-    }
-
     return (
         <Container>
             <Background />
-            <Form onKeyDown={handleKeyDown}>
+            <Form>
                 <h1>Rocketnotes</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis</p>
 

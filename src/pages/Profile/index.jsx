@@ -53,12 +53,6 @@ export function Profile() {
         navigate(-1)
     }
 
-    const handleKeyDown = (event) => {
-        if (event.key === "Enter") {
-            handleUpdate()
-        }
-    }
-
     return (
         <Container>
             <header>
@@ -66,7 +60,7 @@ export function Profile() {
                     <FiArrowLeft />
                 </button>
             </header>
-            <Form onKeyDown={handleKeyDown}>
+            <Form>
                 <Avatar>
                     <img src={avatar}
                         alt={`Foto de ${user.name}`}

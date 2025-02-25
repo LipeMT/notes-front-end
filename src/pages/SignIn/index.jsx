@@ -21,15 +21,9 @@ export function SignIn() {
         signIn({ email, password })
     }
 
-    const handleKeyDown = (event) => {
-        if (event.key === "Enter") {
-            handleSingIn();
-        }
-    };
-
     return (
         <Container>
-            <Form onKeyDown={handleKeyDown}>
+            <Form>
                 <h1>Rocketnotes</h1>
                 <p>Aplicação para salvar e gerenciar seus links úteis</p>
 
